@@ -1,0 +1,156 @@
+/*Selector universal*/
+
+/* * {
+	padding: 0;
+	margin: 0;
+}
+.all {
+	padding-top: 40px;
+	padding-left: 20px;
+} */
+
+body {
+	background-color: #d4efdf;
+	color: #3f3f3f;
+}
+h1 {
+	color: black;
+}
+h2 {
+	color: black;
+}
+h3 {
+	color: #313131;
+}
+
+/*Menu*/
+
+/* .menu {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+  	overflow:hidden;
+  	position: fixed;
+  	z-index: 100;
+} */
+
+.menu ul
+{
+	background-color: #00CED1;
+	list-style:none;
+	float:left;
+	overflow: hidden;
+	width:97%;
+}
+
+.menu ul li
+{
+	font-size: 20px;
+	float:left;
+	margin-top: 15px;
+	margin-right:35px;
+	margin-bottom:15px;
+	margin-left: 15px;
+	background: #00CED1;
+}
+.menu ul li a
+{
+	color: #FFFFFF;
+	text-decoration:none;
+	display: block;
+	padding: 2px;
+}
+.menu ul li a:hover
+{
+	color: blue;
+}
+
+/*Divitis */
+#header{
+	background-color: red;
+}
+
+#nav{
+	background-color: purple;
+}
+
+#main{	
+	background-color: blue;
+}
+
+#sidebar{
+	background-color: orange;
+}
+	
+#footer{
+	background-color: green;
+}
+
+.sc1{
+	color: red;
+	background: blue;
+}
+
+/*Pseudoclases */
+a:link{
+	color: #e19d0b;
+}
+
+a:visited{
+	color: #9319a6;
+}
+
+legend:hover{
+	color: red;
+
+}
+
+legend:active{
+	color: blue;
+}
+
+input:focus{
+	color: orange;
+}
+
+li:first-child{
+	background: yellow;
+}
+
+li:last-child{
+	background: red;
+}
+
+li:nth-child(2n){
+	background: orange;
+}
+
+li:nth-child(3n){
+	background: olive;
+}
+
+li:nth-child(5n){
+	background: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
