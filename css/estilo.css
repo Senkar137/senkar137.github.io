@@ -13,14 +13,19 @@ body {
 	background-color: #d4efdf;
 	color: #3f3f3f;
 }
-h1 {
+.h1 {
 	color: black;
 }
-h2 {
+.h2 {
 	color: black;
 }
 h3 {
 	color: #313131;
+}
+
+.footer{
+	background: black;
+	color: white;
 }
 
 /*Menu*/
@@ -45,12 +50,12 @@ h3 {
 
 .menu ul li
 {
-	font-size: 20px;
+	font-size: 13px;
 	float:left;
-	margin-top: 15px;
-	margin-right:35px;
-	margin-bottom:15px;
-	margin-left: 15px;
+	margin-top: 10px;
+	margin-right:30px;
+	margin-bottom:10px;
+	margin-left: 10px;
 	background: #00CED1;
 }
 .menu ul li a
@@ -58,7 +63,7 @@ h3 {
 	color: #FFFFFF;
 	text-decoration:none;
 	display: block;
-	padding: 2px;
+	padding: 1px;
 }
 .menu ul li a:hover
 {
@@ -100,12 +105,17 @@ a:visited{
 	color: #9319a6;
 }
 
-legend:hover{
+.hovers:hover{
+	color: #FF8C00;
+}
+.actives:active{
+	color: #FF8C00;
+}
+form:hover{
 	color: red;
-
 }
 
-legend:active{
+form:active{
 	color: blue;
 }
 
@@ -133,6 +143,41 @@ li:nth-child(5n){
 	background: blue;
 }
 
+/*Pseudoelemntos */
+.h52{
+	font-size: 15px;
+}
+.h52::before {
+	content: "before";
+	background: orange;
+}
+.h52::after {
+	content: "after";
+	background: orange;
+}
+.Pseudoelementos::first-letter {
+	font-size: 36px;
+	color: gold;
+}
+.Pseudoelementos::first-line {
+	color: crimson;
+}
+
+/*Combinación de selectores*/
+
+.se  li {
+	background: lightblue;
+	margin-left: 40px;
+}
+
+.lec > li {
+	background: plum;
+	margin-left: 40px;
+}
+
+.tor p ~ p {
+	background: yellow;
+}
 
 
 
