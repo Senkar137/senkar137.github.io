@@ -18,6 +18,10 @@ body {
 }
 .h2 {
 	color: black;
+	text-align: center;
+	background: white;
+	border:1px solid;
+
 }
 h3 {
 	color: #313131;
@@ -28,7 +32,7 @@ h3 {
 	color: white;
 }
 
-/*Menu*/
+	/*Menu*/
 
 /* .menu {
 	width: 100%;
@@ -70,7 +74,7 @@ h3 {
 	color: blue;
 }
 
-/*Divitis */
+	/*Divitis */
 #header{
 	background-color: red;
 }
@@ -96,7 +100,7 @@ h3 {
 	background: blue;
 }
 
-/*Pseudoclases */
+	/*Pseudoclases */
 a:link{
 	color: #e19d0b;
 }
@@ -143,7 +147,7 @@ li:nth-child(5n){
 	background: blue;
 }
 
-/*Pseudoelemntos */
+	/*Pseudoelemntos */
 .h52{
 	font-size: 15px;
 }
@@ -163,7 +167,7 @@ li:nth-child(5n){
 	color: crimson;
 }
 
-/*Combinación de selectores*/
+	/*Combinación de selectores*/
 
 .se  li {
 	background: lightblue;
@@ -179,7 +183,7 @@ li:nth-child(5n){
 	background: yellow;
 }
 
-/*Logintudes de CSS*/
+	/*Logintudes de CSS*/
 
 /*absolutas*/
 .ABSO li {
@@ -226,10 +230,6 @@ li:nth-child(5n){
 	background:	lightgrey;
 	font-size: 1rem;
 }
-.Rpor {
-	background:	lightgrey;
-	font-size: 100%;
-}
 .Rex {
 	background:	lightgrey;
 	font-size: 1ex;
@@ -245,6 +245,138 @@ li:nth-child(5n){
 	background:	lightgrey;
 	font-size: 16px;
 }
+
+.Porc {
+	background:	lightgrey;
+	font-size: 100%;
+}
+
+.level1{
+	width: 400px;
+	height: 400px;
+	background: red;
+	font-size: 80px;
+	color: black;
+}
+.level2{
+	background: green;
+	width: 50%;
+	height: 50%;
+	font-size: 50%;
+}
+.level3{
+	background: blue;
+	width: 50%;
+	height: 50%;
+	font-size: 50%;	
+}
+
+.lv3{
+	font-size: 12px;
+	color: white;
+}
+.lv2{
+	font-size: 13px;
+	color: white;
+}
+.lv1{
+	font-size: 24px;
+	color: white;
+}
+
+	/*El modelo de cajas*/
+
+/*width y height*/
+.wh1 {
+	background: darkorange;
+	width: 360px;
+	height: 150px;
+}
+.wh2 {
+	background: deepskyblue;
+	width: 80%;
+	height: 50px;
+}
+.wh3 {
+	background: greenyellow;
+	font-size: 32px;
+	width: 20em;
+	height: 80px;
+}
+/*Display*/
+
+.displays1 div{
+	border: 1px solid;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+}
+.displays2 div{
+	border: 1px solid;
+	width: 100px;
+	height: 100px;
+	display: inline;
+}
+
+/*Un modelo de cajita*/
+.mar {
+	background: blue;
+	color: white;
+	width: 600px;
+	height: 400px;
+	justify-content: center;
+}
+.bor {
+	background: green;
+	color: black;
+	width: 75%;
+	height: 75%;
+	margin-top:auto;
+	margin-right:auto;
+	margin-bottom:auto;
+	margin-left:auto;
+}
+.pad {
+	background: gray;
+	color: ;
+	width: 75%;
+	height: 75%;
+	margin-top:auto;
+	margin-right:auto;
+	margin-bottom:auto;
+	margin-left:auto;
+}
+.heYwi {
+	background: white;
+	color: black;
+	width: 75%;
+	height: 75%;
+	margin-top:auto;
+	margin-right:auto;
+	margin-bottom:auto;
+	margin-left:auto;
+	text-align: center;
+}
+
+.elModelo{
+	background: white;
+	color: black;
+	text-align: center;
+	width: 400px;
+	height: 200px;
+	padding: 20px;
+	border: 25px solid blue;
+	margin: 40px auto;
+}
+.elModelo p{
+	background: red;
+	text-align: center;
+	padding-top: 23%;
+	padding-bottom: 23%;
+    margin: auto auto;
+}
+
+
 
 
 
