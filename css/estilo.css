@@ -286,6 +286,21 @@ li:nth-child(5n){
 
 	/*El modelo de cajas*/
 
+/*Top, Right, Bottom and Left*/
+.trbl li{
+	background-color: #d4efdf;
+	color: #3f3f3f;
+}
+.Despla{
+	background: #FFB6C1;
+	color: black;
+	padding: 30px 80px;
+	border-top: 5px solid black;
+	border-right:30px solid red; 
+	border-bottom: 20px solid lightblue;
+	border-left:80px solid white;
+}
+
 /*width y height*/
 .wh1 {
 	background: darkorange;
@@ -375,6 +390,107 @@ li:nth-child(5n){
 	padding-bottom: 23%;
     margin: auto auto;
 }
+
+/*padding*/
+
+.padd1 {
+	background-color:yellow;
+	width:200px;
+	height:100px;
+	display:inline-block;
+	padding: 40px;
+}
+.padd2 {
+	background:pink;
+	width:200px;
+	height:100px;
+	display:inline-block;
+	padding: 10px 10px 10px 20px;
+}
+.padd3 {
+	background-color:red;
+	color: white;
+	width:200px;
+	height:100px;
+	padding: 20px;
+}
+.padd4 {
+	background-color:blue;
+	color: white;
+	width:200px;
+	height:100px;
+	display: inline;
+	padding: 40px 10px;
+}
+
+.padd5 {
+	background:green;
+	color: white;
+	text-align: center;
+	width:400px;
+	height:100px;
+	padding: 20px;
+}
+
+/*border*/
+.bord1{
+	background:darkgoldenrod;
+	width: 200px;
+	height:100px;
+	margin-bottom: 15px;
+	margin-left: 20px;
+
+	border-top: 9px solid;
+	border-right:15px dotted; 
+	border-bottom: 10px dashed;
+	border-left:20px double;
+}
+.bord2{
+	background:hotpink;
+	width: 200px;
+	height: 100px;
+	margin-top: 15px;
+	margin-left: 20px;
+
+	border-width: 20px;
+	border-style: double;
+	border-color: gray;
+}
+
+/*margin*/
+.margin1 {
+	background:#D7BDE2;
+	width: 400px;
+	height: 200px;
+	margin-bottom: 20px;
+	margin:0px 0px 0px 900px;
+
+}
+.margin2 {
+	background:#EAEDED;
+	width: 300px;
+	height: 150px;
+	margin-bottom: 20px;
+	margin:0px 0px 0px 600px;
+
+}
+.margin3 {
+	background:#F5B041;
+	width: 300px;
+	height: 100px;
+	margin-bottom:20px; 
+	margin:0px 0px 0px 300px;
+
+}
+.margin4 {
+	background:#5499C7;
+	width: 800px;
+	height: 400px;	
+	margin-left: 50px;
+}
+
+	/*Posicionamientos*/
+
 
 
 

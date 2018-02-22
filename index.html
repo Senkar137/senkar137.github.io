@@ -21,7 +21,7 @@
             <li><a href="#e9">Colores</a></li>
             <li><a href="#e10">Longitudes en css</a></li>
             <li><a href="#e11">Modelo de cajas</a></li>
-            <li><a href="#e12"></a></li>
+            <li><a href="#e12">Posicionamiento</a></li>
             <li><a href="#e13"></a></li>
             <li><a href="#e14"></a></li>
             <li><a href="#e15"></a></li>
@@ -328,6 +328,25 @@
 <h2 class="h2"><font size="5" id="e11" ><b><i>Modelo de cajas</b></i></font>   </h2>
 	<p>Para más informacion del modelo de caja en css visitar el siguiente link: <strong><a href="https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Modelo_cajas" target="9">https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Modelo_cajas</a></strong></p>
 
+	<h3>---Propiedades de desplazamiento: Top, Right, Bottom and Left---</h3>
+
+	<p>Estas cuatro propiedades son muy imporatente para casi todos los siguientes sub-temas ya que se definen por estos. Las propiedades son arriba(<strong style="color: black">top</strong>), derecha(<strong style="color: black">right</strong>), abajo(<strong style="color: black">bottom</strong>) e izquierda(<strong style="color: black">left</strong>).</p>
+	<p>Es muy importante recalcar que el orden escrito de estos en una propiedad css es muy importante para que funcione y estos ordenes son los siguientes:</p>
+
+	<ul class="trbl">
+		<li><strong style="color: black">Valor universal</strong> En cualquier propiedad de css, y que no de entender que su valor solo afectara a un desplazamiento especifico, entonces este afectara a todos con un solo valor. = border: 5px (top,right,bottom,left);</li>
+
+		<li><strong style="color: black">Propiedad css con el Desplazamiento</strong> En esta la propiedad tiene que expresar que lado desplazara su valor. = border-top: 1px;</li>
+		
+		<li><strong style="color: black">"TopBottom" y "RightLeft"</strong> Aquí se escriben solo dos valores en la propiedad css; el primer valor es de arriba y abajo y el segundo valor es de derecha e izquierda. = margin: 5px(top y bottom) 9px(right y left); </li>
+		
+		<li><strong style="color: black">Sentido Horario</strong> Osea valores en el orden de arriba a derecha a abajo a izquierda. = Padding: 20px(top) 5px(right) 15px(bottom) 30px(left);.</li>
+	</ul>
+
+	<br><br><br>
+	<span class="Despla">Esta elemento caja tiene bordes de diferentes tamaños: border- top de 5px, right de 30px, bottom de 20px y left de 80px y con un padding: 30px 80px;</span>
+	<br><br><br><br>
+
 	<h3>---Ancho y Alto---</h3>
 
 		<p>Propiedades <strong style="color: black">"width"</strong>(ancho) y <strong style="color: black">"height"</strong>(alto).</p>
@@ -344,15 +363,13 @@
 
 	<section class="displays1">
 		<div class="dis1">bloque 1</div>
-		<div class="dis2">bloque 2</div>
-		<div class="dis3">bloque 3</div>
-		---- inline-block
+		<div class="dis2">bloque 2</div><div class="dis3">bloque 3</div>
+		---- inline-block (algo curioso que si en el codigo no tiene espacio entonces aqui tampoco lo tendra como pasa con el bloque 3)
 	</section>
 	<br>
 	<section class="displays2">
 		<div class="dis1">bloque 1</div>
-		<div class="dis2">bloque 2</div>
-		<div class="dis3">bloque 3</div>
+		<div class="dis2">bloque 2</div><div class="dis3">bloque 3</div>
 		----  inline
 	</section>
 
@@ -383,11 +400,39 @@
 
 	<h3>---Padding---</h3>
 
-	<p>Propiedades.</p>
+	<p>Padding es el relleno de un elemento caja y veremos como actua con las alteraciones de display.</p>
 
-	<div class="padd1">BLOQUE 1</div>
-	<div class="padd2">BLOQUE 2</div>
+	<div class="padd1">BLOQUE 1</div><div class="padd2">BLOQUE 2</div>
 	<div class="padd3">BLOQUE 3</div>
+	<div class="padd4">BLOQUE 4</div>
+	<div class="padd5">BLOQUE 5</div>
+
+	<p>En el bloque 1 y el bloque 2 tienen el mismo display:inline-block; y sin espacio en codigo con diferente padding. El bloque 3 y 5 tienen el mismo padding y el display por defecto (block) pero el bloque 4 al estar con el display:inline; hace que el padding de 30px no genere espacio y no se separe del bloque 3 y 5.</p>
+
+	<h3>---Border---</h3>
+
+	<p>El border es un tema simple pero hay que tener muy encuenta como escribirlo en el css para lograr todo lo que queramos hacer; para ello tomaremos 2 cajas div con bordes difenretes escritos en css.</p>
+
+	<p>Estilos border son: <strong style="color: black"> solid, double, dashed y dotted</strong>. Border tiene descripciones en su elemento de css y esas son: <strong style="color: black">border-widht, border-style, border-color</strong>. Tambien describe sus desplazamientos; <strong style="color: black">border-top, border-right, border-bottom y border-left</strong>.</p>
+
+	<div class="bord1">Caja 1</div>
+	<div class="bord2">Caja 2</div>
+
+	<h3>---Margin---</h3>
+
+	<p>El margin es muy simple solo hay que saber que valores de desplazamiento buscamos. veremos el efecto del margin en los siguientes sectores:</p>
+
+	<div class="margin1">Sector 1</div>
+	<div class="margin2">Sector 2</div>
+	<div class="margin3">Sector 3</div>
+	<div class="margin4">Sector 4</div>
+  <br>
+
+  <br>
+<h2 class="h2"><font size="5" id="e12" ><b><i>Posicionamientos</b></i></font></h2>
+	<p>Para más informacion del posicionamiento de elementos HTML visitar el siguiente link: <strong><a href="https://developer.mozilla.org/es/docs/Web/CSS/position" target="11">https://developer.mozilla.org/es/docs/Web/CSS/position</a></strong></p>
+
+	<h3>---Static---</h3>
 
 
 
@@ -401,7 +446,22 @@
 
 
 
-  <br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 	<footer class="footer">
 		<p>ESTE ES EL FINAL DE LA PAGINA - Pie de página</p>
 	</footer>
