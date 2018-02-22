@@ -21,18 +21,23 @@
             <li><a href="#e9">Colores</a></li>
             <li><a href="#e10">Longitudes en css</a></li>
             <li><a href="#e11">Modelo de cajas</a></li>
-            <li><a href="#e12">Posicionamiento</a></li>
+            <li><a href="#e12">Posicionamientos (position)</a></li>	
             <li><a href="#e13"></a></li>
             <li><a href="#e14"></a></li>
             <li><a href="#e15"></a></li>
+            <li><a href="#e16"></a></li>
+            <li><a href="#e17"></a></li>
+            <li><a href="#e18"></a></li>
+            <li><a href="#e19"></a></li>
+            <li><a href="#e20"></a></li>
+
 
         </ul>
     </nav>
 </section>
 
-<h1 class="h1"><i>-Aprendiendo HTML y CSS-</i></h1>
+<h1 class="h1">Aprendiendo HTML y CSS</h1>
 
-  <br>
 <h2 class="h2"><font size="5" id="e1"><b><i>Elementos HTML5</i></b></font></h2>
 	<p>Para más informacion de todos los elementos de HTML5 visitar el siguiente link: <strong><a href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos" target="1">https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos</a></strong></p>
 
@@ -89,11 +94,13 @@
   <br>
 <h2 class="h2"><font size="5" id="e2"><b><i>Divitis</b></i></font></h2>
 
-	<div id="header">div id="header"</div>
-	<div id="nav">div id="nav"</div>
-	<div id="main">div id="main"</div>
-	<div id="sidebar">div id="sidebar"</div>
-	<div id="footer">div id="footer"</div>
+	<section class="alldivs">
+	<div id="header">div id="header" <p>El titulo</p></div>
+	<div id="nav">div id="nav" <p>El menu de navegación</p></div>
+	<div id="main">div id="main" <p>El contenido</p></div>
+	<div id="sidebar">div id="sidebar" <p>Informacion poco relevante</p></div>
+	<div id="footer">div id="footer" <p>Pie de página</p></div>
+	</section>
 
   <br>	
 
@@ -158,7 +165,7 @@
 	<p>Last-child es para brindar estilo a el ultimo elemento de una lista ul.</p>
 	<p>Nth-child es para brindar estilo a elementos que coincidan con la condicion an+b-1, siendo n un numero natural en una lista u (una pseudoclase complicada).</p>
 
-	<ul>
+	<ul class="flnth">
 		<li>Primero</li>
 		<li>Seguno</li>
 		<li>Tercero</li>
@@ -429,10 +436,50 @@
   <br>
 
   <br>
-<h2 class="h2"><font size="5" id="e12" ><b><i>Posicionamientos</b></i></font></h2>
+<h2 class="h2"><font size="5" id="e12" ><b><i>Posicionamientos (position)</b></i></font></h2>
 	<p>Para más informacion del posicionamiento de elementos HTML visitar el siguiente link: <strong><a href="https://developer.mozilla.org/es/docs/Web/CSS/position" target="11">https://developer.mozilla.org/es/docs/Web/CSS/position</a></strong></p>
 
+	<p>Un elemento posicionado es un elemento cuyo valor de posición pueden ser relativo(<strong style="color: black">relative</strong>), absoluto(<strong style="color: black">absolute</strong>), fijo(<strong style="color: black">fixed</strong>), adhesivo(<strong style="color: black">sticky</strong>) o estatico(<strong style="color: black">static</strong>) que no se usa comunmente.</p>
+
 	<h3>---Static---</h3>
+
+	<p>La posición static es la menos usada ya que es un objeto que no se mueve aunque ordenes desplazamientos en css.</p>
+
+	<section class="box1">
+	<div class="estatic"> Elemento estatico</div>
+	</section>
+
+	<h3>---Relative---</h3>
+
+	<p>La posición relative es la más popular ya que puedes mover un elemento cualquiera a donde ordenes los desplazamientos desde css.</p>
+
+	<section class="box2">
+	<div class="relativ1"> Elemento relativo nº1</div>
+	<div class="relativ2"> Elemento relativo nº2</div>
+	<div class="relativ3"> Elemento relativo nº3</div>
+	<div> Elemento nuevo</div>
+	</section>
+
+	<h3>---Absolute---</h3>
+
+	<p>La posición absolute se posiciona siempre en relación al primer elemento padre que tiene una posición relativa, si no fuera por section que tiene position:relative; los elementos div se posicionarian en relacion a todo el navegador.</p>
+
+	<section class="box3">
+	<div class="absolu1"> Elemento absoluto nº1</div>
+	<div class="absolu2"> Elemento absoluto nº2</div>
+	<div class="absolu3"> Elemento absoluto nº3</div>
+	</section>
+
+	<h3>---Fixed---</h3>
+
+	<p>La posición fixes .</p>
+
+	<section class="box4">
+	<div class="fix1"> Elemento fijo nº1</div>
+	<div class="fix2"> Elemento fijo nº2</div>
+	<div class="fix3"> Elemento fijo nº3</div>
+	</section>
+
 
 
 
