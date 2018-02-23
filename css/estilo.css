@@ -35,6 +35,7 @@ h3 {
 .menu {
 	width: 100%;
 	margin-left: 0;
+	z-index:1;
   	position: fixed;
   	top:0;
   	left: 0;
@@ -68,9 +69,9 @@ h3 {
 	/*Divitis */
 .alldivs{
 	background: white;
+	position:;
 	width: 90%;
 	height:650px;
-	position: relative;
 	margin-left: 5%;
 	border:2px solid black;
 }
@@ -94,12 +95,14 @@ h3 {
 }
 #main{	
 	background-color: blue;
+	position: relative;
 	height: 450px;
 }
 #sidebar{
 	background-color: orange;
+	height: 450px;
 	position: absolute;
-	top: 120px;
+	top: 0;
 	bottom: 80px;
 	right: 0;
 	left: 80%;
@@ -599,10 +602,53 @@ input:focus{
 
 /*fixed*/
 /*float*/
+.box4 {
+	background: mediumpurple;
+	height: 185px;
+	width: 1200px;
+	margin-left: 2%;
+}
+.marg0 {
+	margin:0;
+}
+.h3m0 {
+	margin:0;
+}
 
+.box4 header{
+	text-align: center;
+	background: lightblue;
+	color: black;
+}
+.box4 header h1{
+	margin:0; 
+}
+.box4 article{
+	background: white;
+	color:black;
+	width: 575px;
+	float: left;
+}
+.box4 aside{
+	background: lightyellow;
+	color:black;
+	width: 575px;
+ 	float: right;	 
+}
+.box4 footer{
+	background: gray;
+	color:black;
+	clear: both;
+}
 
+	/*Tipografías*/
 
+/*font-size*/
 
+.divran{
+	background: black;
+	border:1px solid black;
+}
 
 
 

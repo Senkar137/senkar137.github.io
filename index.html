@@ -22,7 +22,7 @@
             <li><a href="#e10">Longitudes en css</a></li>
             <li><a href="#e11">Modelo de cajas</a></li>
             <li><a href="#e12">Posicionamientos (position)</a></li>	
-            <li><a href="#e13"></a></li>
+            <li><a href="#e13">Tipografías</a></li>
             <li><a href="#e14"></a></li>
             <li><a href="#e15"></a></li>
             <li><a href="#e16"></a></li>
@@ -35,11 +35,12 @@
         </ul>
     </nav>
 </section>
-<br><br><br><br>
+<br><br><br><br><br>
 
 <h1 class="h1">Aprendiendo HTML y CSS</h1>
+  <br>
 
-<h2 class="h2"><font size="5" id="e1"><b><i>Elementos HTML5</i></b></font></h2>
+<h2 class="h2"><font size="5" id="e1"><b><i>Elementos HTML5</i></b></font></h2> <br>
 	<p>Para más informacion de todos los elementos de HTML5 visitar el siguiente link: <strong><a href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos" target="1">https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos</a></strong></p>
 
 	<header>header "encabezado"</header>
@@ -49,8 +50,7 @@
 	<footer>footer "pie de página"</footer>
 	<p>p "parrafo" (muestra una linea de espacio en la página tanto arriba como abajo)</p>
 	<span>span "contenedor en linea"</span>
-	<span>el elemento "br" es espacio</span>
-  <br>
+	<p>el elemento "br" es espacio</p>
 
 	<h3>---Textos con énfasis---</h3>
 
@@ -72,6 +72,7 @@
 	<a href=""></a>
 	<img src="">
 	<td>td</td>
+  <br>
 
   <br>
 	<h3>---Texto tipo 'Lorem ipsum' (se activa escribiendo unicamente "lorem")---</h3>
@@ -90,16 +91,17 @@
 	<span class="borde">span 1</span>
 	<span class="borde">span 2</span>
 	<span class="borde">span 3</span>
-  <br>
+  <br><br>
 
   <br>
-<h2 class="h2"><font size="5" id="e2"><b><i>Divitis</b></i></font></h2>
+<h2 class="h2"><font size="5" id="e2"><b><i>Divitis</b></i></font></h2>  <br>
 
 	<section class="alldivs">
 	<div id="header">div id="header" <p>El titulo</p></div>
 	<div id="nav">div id="nav" <p>El menu de navegación</p></div>
-	<div id="main">div id="main" <p>El contenido</p></div>
+	<div id="main">div id="main" <p>El contenido</p>
 	<div id="sidebar">div id="sidebar" <p>Informacion poco relevante</p></div>
+	</div>
 	<div id="footer">div id="footer" <p>Pie de página</p></div>
 	</section>
 
@@ -140,7 +142,7 @@
   <br>
 
   <br>
-<h2 class="h2"><font size="5" id="e6" ><b><i>Pseudoclases en CSS</b></i></font> </h2>
+<h2 class="h2"><font size="5" id="e6"><b><i>Pseudoclases en CSS</b></i></font> </h2>
 	<p>Para más informacion de Pseudoclases visitar el siguiente link: <strong><a href="https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes" target="3">https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes</a></strong></p>
 	
 	<p>Las pseudoclases brindan estilo a elementos "ocultos"(elementos que no estan en la estructura del doc. html). En el archivo estilo.css hay unas pseudoclases que definen el color de un link sin visitar y visitado (:link y :visited).</p>
@@ -352,9 +354,10 @@
 	</ul>
 
 	<br><br><br>
-	<span class="Despla">Esta elemento caja tiene bordes de diferentes tamaños: border- top de 5px, right de 30px, bottom de 20px y left de 80px y con un padding: 30px 80px;</span>
+	<span class="Despla">Este elemento caja tiene bordes de diferentes tamaños: border- top de 5px, right de 30px, bottom de 20px y left de 80px y con un padding: 30px 80px;</span>
 	<br><br><br><br>
 
+	<br><br>
 	<h3>---Ancho y Alto---</h3>
 
 		<p>Propiedades <strong style="color: black">"width"</strong>(ancho) y <strong style="color: black">"height"</strong>(alto).</p>
@@ -363,6 +366,7 @@
 	<div class="wh2">BLOQUE 2</div>
 	<div class="wh3">BLOQUE 3</div>
 
+	<br><br>
 	<h3>---Display---</h3>
 
 		<p>Este subtema es muy importante por eso se adjuntara el siguiente link para saber más: <a href="https://developer.mozilla.org/es/docs/Web/CSS/display" target="10">https://developer.mozilla.org/es/docs/Web/CSS/display</a>.</p>
@@ -381,6 +385,7 @@
 		----  inline
 	</section>
 
+	<br><br>
 	<h3>---Modelo de caja---</h3>
 	<p>Según el concepto de modelo de caja cada elemento estructural o elemento en sí de html es una caja rectangular y por ende puede tener ancho(<strong style="color: black">width</strong>), alto(<strong style="color: black">height</strong>), relleno(<strong style="color: black">padding</strong>), borde(<strong style="color: black">border</strong>) y margen(<strong style="color: black">margin</strong>). Todos los elementos de html se ajustan al modelo de caja y se representa de la siguiente manera:</p>
 
@@ -415,6 +420,7 @@
 	<div class="padd4">BLOQUE 4</div>
 	<div class="padd5">BLOQUE 5</div>
 
+	<br><br>
 	<p>En el bloque 1 y el bloque 2 tienen el mismo display:inline-block; y sin espacio en codigo con diferente padding. El bloque 3 y 5 tienen el mismo padding y el display por defecto (block) pero el bloque 4 al estar con el display:inline; hace que el padding de 30px no genere espacio y no se separe del bloque 3 y 5.</p>
 
 	<h3>---Border---</h3>
@@ -426,6 +432,7 @@
 	<div class="bord1">Caja 1</div>
 	<div class="bord2">Caja 2</div>
 
+	<br><br>
 	<h3>---Margin---</h3>
 
 	<p>El margin es muy simple solo hay que saber que valores de desplazamiento buscamos. veremos el efecto del margin en los siguientes sectores:</p>
@@ -450,6 +457,7 @@
 	<div class="estatic"> Elemento estatico</div>
 	</section>
 
+	<br><br>
 	<h3>---Relative---</h3>
 
 	<p>La posición relative es la más popular ya que puedes mover un elemento cualquiera a donde ordenes los desplazamientos desde css.</p>
@@ -461,6 +469,7 @@
 	<div> Elemento nuevo</div>
 	</section>
 
+	<br><br>
 	<h3>---Absolute---</h3>
 
 	<p>La posición absolute se posiciona siempre en relación al primer elemento padre que tiene una posición relativa, si no fuera por section que tiene position:relative; los elementos div se posicionarian en relacion a todo el navegador.</p>
@@ -471,10 +480,54 @@
 	<div class="absolu3"> Elemento absoluto nº3</div>
 	</section>
 
+	<br><br>
 	<h3>---Fixed---</h3>
 
 	<p>Para la posición fixed tuvimos que omitir ejemplo ya que su función es quedar fijo en la vetana del navegador aunque bajes scroll o lo subas siempre se queda FIJO. Pero el ejemplo perfecto para esta función es para los Navbars o menú de navegación como usan muchas pagina web asi como esta.</p>
 
+	<h3>---Float---</h3>
+
+	<p>Cuando la propiedad float es aplicado a un elemento este puede dezplarsarce a la izquierda o a la derecha pero sin seguir el flujo normal de página (En este caso aside y article se desplazaron a la derecha y a la izquierda pero se sobrepusieron en footer porque este no los ve como un elemento del flujo normal; luego se aplico clear:both; para dejar a footer debajo de aside y article).</p>
+
+	<div class="box4">
+
+		<header>
+			<h1>Titulo.</h1>
+		</header>
+
+		<article>
+			<h3 class="h3m0">Esto es un lorem</h3>
+			<p class="marg0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</article>
+
+		<aside>
+			<h3 class="h3m0">Información del auto</h3>
+			<p class="marg0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</aside>
+
+		<footer>
+			<p class="marg0">Pie de página.</p>
+		</footer>
+	</div>
+  <br>
+
+  <br>
+<h2 class="h2"><font size="5" id="e13"><b><i>Tipografía</b></i></font></h2>
+	<p>Para más informacion de las Tipografías visitar el siguiente link: <strong><a href="https://developer.mozilla.org/es/docs/Web/CSS/font" target="11">https://developer.mozilla.org/es/docs/Web/CSS/font</a></strong></p>
+
+	<h3>---Font-size---</h3>
+
+	<div class="divran"></div>
 
 
 
@@ -505,7 +558,8 @@
 
 
 
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 	<footer class="footer">
 		<p>ESTE ES EL FINAL DE LA PAGINA - Pie de página</p>
 	</footer>
