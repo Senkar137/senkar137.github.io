@@ -1,13 +1,9 @@
 /*Selector universal*/
 
-/* * {
-	padding: 0;
-	margin: 0;
+* {
+	padding: auto auto auto auto;
+	margin-top: 0;
 }
-.all {
-	padding-top: 40px;
-	padding-left: 20px;
-} */
 
 body {
 	background-color: #d4efdf;
@@ -20,9 +16,9 @@ body {
 	color: black;
 	text-align: center;
 	background: white;
-	border:1px solid;
+	border: 1px solid;
 	height: 32px; 
-	width: 90%;
+	width: 	90%;
 	margin-left: 5%;
 
 }
@@ -35,28 +31,22 @@ h3 {
 	color: white;
 }
 
-	/*Menu*/
-
-/* .menu {
+/*Menu*/
+.menu {
 	width: 100%;
-	padding: 0;
-	margin: 0;
-  	overflow:hidden;
+	margin-left: 0;
   	position: fixed;
-  	z-index: 100;
-} */
-
-.menu ul
-{
+  	top:0;
+  	left: 0;
+} 
+.menu ul{
 	background-color: #00CED1;
 	list-style:none;
 	float:left;
 	overflow: hidden;
 	width:97%;
 }
-
-.menu ul li
-{
+.menu ul li{
 	font-size: 13px;
 	float:left;
 	margin-top: 8px;
@@ -65,15 +55,13 @@ h3 {
 	margin-left: 5px;
 	background: #00CED1;
 }
-.menu ul li a
-{
+.menu ul li a{
 	color: #FFFFFF;
 	text-decoration:none;
 	display: block;
 	padding: 1px;
 }
-.menu ul li a:hover
-{
+.menu ul li a:hover{
 	color: blue;
 }
 
@@ -586,9 +574,9 @@ input:focus{
 
 	position: absolute;
 	top: 20px;
-	right: 150px;
+	right: 130px;
 	bottom: 150px;
-	left: 150px;
+	left: 170px;
 }
 .absolu2{
 	background: mediumorchid;
@@ -606,51 +594,12 @@ input:focus{
 	top: 120px;
 	right: 0;
 	bottom: 50px;
-	left: 300px;
+	left: 270px;
 }
 
 /*fixed*/
-.box4{
-	background: papayawhip;
-	height: 200px;
-	width: 450px;
-}
-.box4 div{
-	color:black;
-	height: ;
-	width: ;
-}
-
-.fix1 {
-	background: ;
-
-	position: ;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-}
-.fix2 {
-	background: ;
-
-	position: ;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-}
-.fix3 {
-	background: ;
-
-	position: ;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-}
-
-
 /*float*/
+
 
 
 
