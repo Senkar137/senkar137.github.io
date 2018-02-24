@@ -4,11 +4,12 @@
 	padding: auto auto auto auto;
 	margin-top: 0;
 }
-
 body {
 	background-color: #d4efdf;
 	color: #3f3f3f;
 }
+
+/*Secciones*/
 .h1 {
 	color: black;
 }
@@ -20,12 +21,18 @@ body {
 	height: 32px; 
 	width: 	90%;
 	margin-left: 5%;
-
 }
 h3 {
 	color: #313131;
 }
-
+p{
+	width: 	95%;
+} 
+.linenla{
+	background: black;
+	border:1px solid black;
+	margin-bottom: 66px;
+}
 .footer{
 	background: black;
 	color: white;
@@ -300,6 +307,11 @@ input:focus{
 }
 
 	/*El modelo de cajas*/
+
+.trbl li{
+	width: 	70%;
+	margin-bottom: 8px;
+}
 
 /*Top, Right, Bottom and Left*/
 .Despla{
@@ -644,12 +656,6 @@ input:focus{
 	/*Tipografías*/
 
 /*font-size*/
-
-.divran{
-	background: black;
-	border:1px solid black;
-}
-
 
 
 
